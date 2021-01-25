@@ -22,6 +22,8 @@ public class BetaUICommand extends PluginCommand<BetaKey> {
             if(player.hasPermission(this.getPermission())) {
                 this.getPlugin().getWindows().openBetaForm(player);
                 player.sendPopup(Language.getNP("command-message"));
+            } else {
+                player.sendPopup(Language.get("no-perms"));
             }
         }
         return false;
