@@ -1,0 +1,57 @@
+# [0] for placeholder
+# \n for new line
+# & for color
+
+prefix: "&8» §bBetaKey &8| &7"
+
+kick-message: "You have entered the wrong key or you have entered nothing"
+no-keys-found: "Sorry you cant delete any if no keys exists"
+key-deleted: "The key &5[0] &rwas deleted."
+key-created: "The key &5[0] &rwas created."
+
+# Forms
+beta-title: "&aBeta Key Menu"
+beta-content: "Choose an Option"
+beta-create-custom-form: "Create a Custom Key"
+beta-create-random-form: "Create a Random Key"
+beta-delete-form: "Delete a Key"
+beta-manager-form: "Open Manager"
+
+# Manager Form
+beta-settings: "§rOpen §aBeta §rSettings"
+beta-keys: "§rOpen §aBeta §rKeys"
+beta-statistic: "§rOpen §aBeta §rStatistic"
+beta-remove-betaplayer: "§rOpen §aRemove §rBetaPlayer"
+beta-add-whitelist: "§rAdd §aWhitelist §rPlayers"
+beta-remove-whitelist: "§rRemove §aWhitelist §rPlayers"
+
+# Settings Form
+settings-name: "Set Beta Mode on or off"
+
+# Create Custom key form
+beta-create-name: "Key name\nEnter nothing to generate a random key"
+beta-create-placeholder: "Enter key..."
+
+# Join Form
+join-name: "Please Enter a Key"
+join-placeholder: "Example: coolersupporter"
+code-right-message: "§7Code is §2correct!"
+
+# Add Whitelist Player Form
+add-whitelist-name: "Please Enter a Player to add"
+add-whitelist-placeholder: "Example: HerrKloMensch"
+
+# Remove Whitelist Player Form
+remove-whitelist-name: "Please Enter a Player to remove"
+remove-whitelist-placeholder: "Example: KannickLUL"
+
+# Remove Beta Player Form
+remove-betaplayer-name: "Please Enter a Beta Player to remove"
+remove-betaplayer-placeholder: "Example: LlamaMan"
+
+# Command
+command-name: "betaui"
+command-description: "Open the Beta-Settings Form!"
+command-usage: "/betaui"
+command-alias: "keys"
+command-message: "§aBetaForm opened!"

@@ -1,0 +1,8 @@
+name: BetaKeySystem
+version: 1.0.0
+main: de.nico.betakey.BetaKey
+authors:
+  - Yannick
+  - Nico
+api: ["1.0.0"]
+description: BetaKeySystem for Nukkit
