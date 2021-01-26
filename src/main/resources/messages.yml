@@ -4,8 +4,6 @@
 
 prefix: "&8» §bBetaKey &8| &7"
 
-no-perms: "§4Yoou dont have Permission to use this command."
-
 kick-message: "You have entered the wrong key or you have entered nothing"
 no-keys-found: "Sorry you cant delete any if no keys exists"
 key-deleted: "The key &5[0] &rwas deleted."
@@ -57,3 +55,4 @@ command-description: "Open the Beta-Settings Form!"
 command-usage: "/betaui"
 command-alias: "keys"
 command-message: "§aBetaForm opened!"
+no-perms: "§4You dont have Permission to use this command."
