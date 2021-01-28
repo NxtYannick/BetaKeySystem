@@ -17,20 +17,12 @@ public class EventListener implements Listener {
         if(!plugin.getBetaPlayers().containsKey(player.getName()) || !player.isOp()) {
             if(!plugin.getWhitelistedPlayers().contains(player.getName())) {
                 if(plugin.getBetaMode()) {
-                    if(plugin.getBetaPlayers().containsKey(player.getName())) {
-                        event.setCancelled(false);
-                    } else {
-                        event.setCancelled(true);
+                    if(!plugin.getBetaPlayers().containsKey(player.getName())) {
+                        event.setCancelled();
                         plugin.getWindows().openEnterKeyForm(player);
                     }
-                } else {
-                    event.setCancelled(false);
                 }
-            } else {
-                event.setCancelled(false);
             }
-        } else {
-            event.setCancelled(false);
         }
     }
 }
